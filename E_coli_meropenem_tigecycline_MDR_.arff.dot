@@ -1,0 +1,20 @@
+digraph J48Tree {
+N0 [label="2CJZV" ]
+N0->N1 [label="<= 0"]
+N1 [label="COG1040" ]
+N1->N2 [label="<= 1"]
+N2 [label="SS (135.0/3.0)" shape=box style=filled ]
+N1->N3 [label="> 1"]
+N3 [label="2AV62" ]
+N3->N4 [label="<= 1"]
+N4 [label="SR (2.0)" shape=box style=filled ]
+N3->N5 [label="> 1"]
+N5 [label="SS (2.0)" shape=box style=filled ]
+N0->N6 [label="> 0"]
+N6 [label="28HCQ" ]
+N6->N7 [label="<= 0"]
+N7 [label="SS (2.0/1.0)" shape=box style=filled ]
+N6->N8 [label="> 0"]
+N8 [label="RS (2.0)" shape=box style=filled ]
+}
+
