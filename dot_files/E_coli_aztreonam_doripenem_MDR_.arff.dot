@@ -1,0 +1,16 @@
+digraph J48Tree {
+N0 [label="COG0693" ]
+N0->N1 [label="<= 3"]
+N1 [label="291HE" ]
+N1->N2 [label="<= 0"]
+N2 [label="2DVIP" ]
+N2->N3 [label="<= 1"]
+N3 [label="RS (38.0/1.0)" shape=box style=filled ]
+N2->N4 [label="> 1"]
+N4 [label="RR (2.0)" shape=box style=filled ]
+N1->N5 [label="> 0"]
+N5 [label="RR (2.0)" shape=box style=filled ]
+N0->N6 [label="> 3"]
+N6 [label="RR (12.0/1.0)" shape=box style=filled ]
+}
+
